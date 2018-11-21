@@ -27,4 +27,8 @@ for (var i = 0; i < array.length; i++) {
 
 console.log("Hai utilizzato " + wordCount(fraseUtente) + " parole.");
 
+
+// fare la differenza delle parole utilizzate e quelle censurate (contare determinate parole di una stringa)
+
+
 console.log(fraseUtente);
