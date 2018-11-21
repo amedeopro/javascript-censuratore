@@ -4,6 +4,11 @@
 // - Stampa un "badword index" calcolato come il numero di
 // parole censurate su il numero di parole totali
 
+// conto quante parole ci sono in una stringa
+function wordCount(str) {
+  return str.split(" ").length;
+}
+
 // mi creo un array con le parole da censurare
 var array = ['non','ciao','chiamo']
 // faccio inserire il testo all'utente
@@ -18,5 +23,8 @@ for (var i = 0; i < array.length; i++) {
   }
 
 }
+
+
+console.log("Hai utilizzato " + wordCount(fraseUtente) + " parole.");
 
 console.log(fraseUtente);
